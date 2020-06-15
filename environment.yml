@@ -23,6 +23,7 @@ dependencies:
   - geopandas
   - gridgeo
   - hvplot
+  - ipyleaflet
   - ioos-tools
   - ioos_qc
   - jupyter
