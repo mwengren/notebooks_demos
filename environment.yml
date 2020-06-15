@@ -26,6 +26,7 @@ dependencies:
   - ioos-tools
   - ioos_qc
   - jupyter
+  - jupyterlab
   - matplotlib-base
   - nbdime
   - nc-time-axis
