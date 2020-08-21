@@ -34,6 +34,7 @@ dependencies:
   - nco
   - oceans
   - oct2py
+  - pandas
   - palettable
   - phantomjs
   - pocean-core
