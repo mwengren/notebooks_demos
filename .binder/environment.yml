@@ -1,9 +1,8 @@
 name: IOOS
 channels:
   - conda-forge
-  - defaults
 dependencies:
-  - python=3.8
+  - python=3.9
   - bagit
   - bokeh
   - cartopy
@@ -15,23 +14,29 @@ dependencies:
   - descartes
   - easyargs
   - erddapy
-  - folium
   - flake8
+  - folium
   - geojson
   - geojsonio
   - geolinks
   - geopandas
   - gridgeo
   - hvplot
+  - ipyleaflet
   - ioos-tools
   - ioos_qc
+  - ipyleaflet
+  - joblib
   - jupyter
+  - jupyterlab
   - matplotlib-base
   - nbdime
+  - nbval
   - nc-time-axis
   - nco
   - oceans
   - oct2py
+  - pandas
   - palettable
   - phantomjs
   - pocean-core
@@ -41,7 +46,6 @@ dependencies:
   - pytest
   - pyugrid
   - rasterio
-  - rise
   - seaborn
   - selenium
   - sensorml2iso
@@ -54,24 +58,3 @@ dependencies:
   - xarray
   - xlrd
   - xmltodict
-  # R packages.
-  - rpy2
-  - r-base=3.5.1
-  - r-dt
-  - r-finch
-  - r-ggfortify
-  - r-ggplot2
-  - r-gsw
-  - r-httr
-  - r-irkernel
-  - r-lubridate
-  - r-mapdata
-  - r-ncdf4
-  - r-oce
-  - r-rcolorbrewer
-  - r-rerddap
-  - r-reshape2
-  - r-robis
-  - r-sp
-  - r-xtractomatic
-  - r-xts
