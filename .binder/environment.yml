@@ -19,9 +19,11 @@ dependencies:
   - geojson
   - geojsonio
   - geolinks
+  - geoviews
   - geopandas
   - gridgeo
   - hvplot
+  - intake
   - ipyleaflet
   - ioos-tools
   - ioos_qc
@@ -43,6 +45,7 @@ dependencies:
   - pyoos
   - pyresample
   - pysgrid
+  - pystac
   - pytest
   - pyugrid
   - rasterio
@@ -50,6 +53,8 @@ dependencies:
   - selenium
   - sensorml2iso
   - siphon
+  - smart_open
+  - spatialpandas
   - sympy
   - thredds_crawler
   - tqdm
@@ -58,3 +63,4 @@ dependencies:
   - xarray
   - xlrd
   - xmltodict
+  - zarr
